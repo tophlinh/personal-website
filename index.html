@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victoria Nguyen</title>
+  <meta name="description" content="Product Manager in Recommender Systems. Artist. Builder of systems that shape what people see." />
+  <meta property="og:title" content="Victoria Nguyen" />
+  <meta property="og:description" content="Product Manager, Artist, and builder of systems that shape what people see." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo">Victoria Nguyen</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner container">
+        <svg class="hero-vine" aria-hidden="true" viewBox="0 0 120 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="vine-path" d="M60 0 C60 50, 20 80, 40 130 C60 180, 100 160, 80 220 C60 280, 30 300, 50 360 C70 420, 90 400, 70 460 C50 520, 60 560, 60 600" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          <circle class="vine-dot" cx="40" cy="130" r="3" fill="currentColor"/>
+          <circle class="vine-dot" cx="80" cy="220" r="2.5" fill="currentColor"/>
+          <circle class="vine-dot" cx="50" cy="360" r="3.5" fill="currentColor"/>
+          <circle class="vine-dot" cx="70" cy="460" r="2" fill="currentColor"/>
+        </svg>
+
+        <div class="hero-content">
+          <p class="hero-greeting" data-reveal>hello, i'm</p>
+          <h1 id="hero-title" class="hero-title" data-reveal data-reveal-delay="1">Victoria Nguyen</h1>
+          <p class="hero-subtitle" data-reveal data-reveal-delay="2">Product Manager. Artist.<br>Builder of systems that shape what people see.</p>
+          <div class="hero-quote" data-reveal data-reveal-delay="3">
+            <blockquote>&ldquo;The octopus eats its own leg to survive.&rdquo;</blockquote>
+            <p class="hero-quote-note">&mdash; on transformation, sacrifice, and what grows back</p>
+          </div>
+        </div>
+
+        <div class="hero-scroll-hint" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M12 5 L12 19 M6 13 L12 19 L18 13"/>
+          </svg>
+        </div>
+      </div>
+
+      <svg class="hero-corner hero-corner--tl" aria-hidden="true" viewBox="0 0 80 80" fill="none">
+        <path d="M2 78 C2 40, 10 20, 20 10 C30 2, 50 2, 78 2" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+      </svg>
+      <svg class="hero-corner hero-corner--br" aria-hidden="true" viewBox="0 0 80 80" fill="none">
+        <path d="M78 2 C78 40, 70 60, 60 70 C50 78, 30 78, 2 78" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+      </svg>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider" data-reveal>
+      <svg class="ink-stroke" aria-hidden="true" viewBox="0 0 200 8" preserveAspectRatio="none">
+        <path d="M0 4 C30 2, 50 6, 80 4 C110 2, 140 6, 170 3 C185 2, 195 4, 200 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-photo-wrap" data-reveal>
+            <div class="about-photo">
+              <img src="/photos/profile.webp" alt="Victoria Nguyen" loading="lazy"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('about-photo--placeholder')" />
+              <span class="photo-corner photo-corner--tl" aria-hidden="true"></span>
+              <span class="photo-corner photo-corner--br" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="about-text" data-reveal data-reveal-delay="1">
+            <h2 id="about-title" class="section-title">About</h2>
+            <p class="about-lead">
+              I build recommendation systems at Disney &mdash; the algorithms that decide what millions of people see when they open Disney+ and Hulu. I think about user behavior, content diversity, and the quiet power of defaults.
+            </p>
+            <p>
+              Outside of that, I draw things and sell them at conventions. I co-founded a bouldering gym. I&rsquo;m pursuing graduate research in human-centered design because I&rsquo;m interested in what these systems do <em>to</em> people, not just whether they work.
+            </p>
+            <p>This site is a small place for both halves to exist together.</p>
+            <div class="about-threads">
+              <span class="thread">
+                <svg class="thread-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/></svg>
+                Recommender Systems &amp; ML
+              </span>
+              <span class="thread">
+                <svg class="thread-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/></svg>
+                Human-Centered Design
+              </span>
+              <span class="thread">
+                <svg class="thread-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/></svg>
+                Artist Alley &amp; Illustration
+              </span>
+              <span class="thread">
+                <svg class="thread-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/></svg>
+                Climbing &amp; Community
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider" data-reveal>
+      <svg class="ink-stroke" aria-hidden="true" viewBox="0 0 200 8" preserveAspectRatio="none">
+        <path d="M0 4 C30 6, 60 2, 90 4 C120 6, 150 2, 180 5 C190 6, 198 4, 200 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <blockquote class="divider-quote">&ldquo;We don&rsquo;t need the memories.&rdquo;</blockquote>
+      <svg class="ink-stroke" aria-hidden="true" viewBox="0 0 200 8" preserveAspectRatio="none">
+        <path d="M0 4 C20 2, 50 6, 80 4 C110 2, 150 5, 180 3 C192 2, 198 4, 200 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio" aria-labelledby="portfolio-title">
+      <div class="container container--wide">
+        <h2 id="portfolio-title" class="section-title" data-reveal>Artist Alley</h2>
+        <p class="section-intro" data-reveal data-reveal-delay="1">
+          Prints, stickers, charms, zines, and more &mdash; made for conventions, markets, and people who like small beautiful things.
+        </p>
+
+        <div class="metrics-bar" data-reveal data-reveal-delay="2">
+          <div class="metric">
+            <span class="metric-number" data-target="12" aria-label="12 conventions">0</span>
+            <span class="metric-label">conventions</span>
+          </div>
+          <span class="metric-sep" aria-hidden="true">&middot;</span>
+          <div class="metric">
+            <span class="metric-number" data-target="500" data-suffix="+" aria-label="500+ prints sold">0</span>
+            <span class="metric-label">prints sold</span>
+          </div>
+          <span class="metric-sep" aria-hidden="true">&middot;</span>
+          <div class="metric">
+            <span class="metric-number" data-target="8" aria-label="8 cities">0</span>
+            <span class="metric-label">cities</span>
+          </div>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Filter portfolio by category" data-reveal data-reveal-delay="3">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">All</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="prints">Prints</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="stickers">Stickers</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="charms">Charms</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="zines">Zines</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="graphic-design">Design</button>
+        </div>
+
+        <div class="gallery-grid" role="tabpanel" aria-label="Portfolio gallery" id="gallery-grid"></div>
+
+        <div class="conventions" data-reveal>
+          <h3 class="conventions-title">Where I&rsquo;ve Vended</h3>
+          <ul class="convention-list" id="convention-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider" data-reveal>
+      <svg class="ink-stroke" aria-hidden="true" viewBox="0 0 200 8" preserveAspectRatio="none">
+        <path d="M0 4 C40 2, 60 6, 100 4 C140 2, 160 6, 200 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <blockquote class="divider-quote">&ldquo;You don&rsquo;t just find your place in the world. You&rsquo;ve got to make it.&rdquo;</blockquote>
+      <svg class="ink-stroke" aria-hidden="true" viewBox="0 0 200 8" preserveAspectRatio="none">
+        <path d="M0 4 C30 6, 70 2, 100 4 C130 6, 170 2, 200 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- Work -->
+    <section id="work" class="work" aria-labelledby="work-title">
+      <div class="container">
+        <h2 id="work-title" class="section-title" data-reveal>Work</h2>
+        <p class="section-intro" data-reveal data-reveal-delay="1">
+          Selected projects in recommendation systems, personalization, and things I care about.
+        </p>
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <svg class="ink-stroke" aria-hidden="true" viewBox="0 0 200 8" preserveAspectRatio="none">
+        <path d="M0 4 C50 2, 100 6, 150 3 C175 2, 195 4, 200 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <p class="footer-text">Handmade with care &mdash; Victoria Nguyen, 2026</p>
+      <p class="footer-sub">built from scratch, like everything else</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+      <button class="lightbox-prev" aria-label="Previous image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18 L9 12 L15 6"/></svg>
+      </button>
+      <div class="lightbox-content">
+        <img class="lightbox-img" src="" alt="" />
+        <div class="lightbox-info">
+          <h3 class="lightbox-title"></h3>
+          <p class="lightbox-desc"></p>
+          <span class="lightbox-tag tag"></span>
+        </div>
+      </div>
+      <button class="lightbox-next" aria-label="Next image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6 L15 12 L9 18"/></svg>
+      </button>
+    </div>
+  </dialog>
+</body>
+</html>
