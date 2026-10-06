@@ -7,7 +7,8 @@ const SECTIONS = [
     '"The octopus eats it own leg" — Takashi Murakami',
     '"We don\'t need the memories" — Haikyuu!!',
     '"A friend, he wrote, would \'choose knowing rather than being known.\' I had always thought it was the other way around" — Stay True, Hua Hsu',
-    '"In another life, I would really have liked just doing laundry and taxes with you (如果有来生, 我还是会选择和你一起报税, 开洗衣店)" — Waymond, Everything Everywhere All at Once'
+    '"In another life, I would really have liked just doing laundry and taxes with you (如果有来生, 我还是会选择和你一起报税, 开洗衣店)" — Waymond, Everything Everywhere All at Once',
+    '"But the truth I learned here is, you had to leave because you\'re you. And the reason I liked you is because you\'re you. And who you are is a person who leaves. But for him, you\'re the person who stays." — Haesung, Past Lives'
   ], lastQuoteIndex: -1 },
   { id: 'contact', label: 'Contact', x: 735, y: 1050, title: 'Contact', text: "Cast a line my way!\n✉ toriwhen@gmail.com\n☆ github.com/tophlinh\n✎ @tophlinh for my doodles" }
 ];
