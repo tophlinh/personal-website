@@ -114,6 +114,13 @@ muteButton.addEventListener('click', (event) => {
 });
 
 dialog.addEventListener('click', (event) => {
+  if (event.target.closest('.tshirt-link')) {
+    event.stopPropagation();
+    const link = event.target.closest('.tshirt-link');
+    imgPopup.querySelector('img').src = link.dataset.img;
+    imgPopup.style.display = 'flex';
+    return;
+  }
   event.stopPropagation();
   closeDialog();
 });
