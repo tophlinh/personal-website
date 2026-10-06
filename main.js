@@ -1,7 +1,7 @@
 const SECTIONS = [
   { id: 'about', label: 'About', x: 230, y: 765, title: 'The Tea Drunk Cat', text: "Mrrrow! That’s Tori. 🎮\nCoder by education, Product Manager by day, and illustrator after dark. When I’m not building things, you’ll find me adventuring through cozy games, rolling Nat 1s in D&D, sipping teas, or doodling by the pond 🌱✨" },
   { id: 'work', label: 'Work', x: 625, y: 900, title: 'Work', text: "Disney+ and Hulu - previously on platform tooling, now on recommendations" },
-  { id: 'projects', label: 'Projects', x: 660, y: 400, title: 'Projects', html: 'Climb NORA - a bouldering gym in Federal Way, WA\n<span class="tshirt-link" data-img="assets/rest-day-hero.webp">Jesse Firestone Coaching</span> - PNW cornerstone, designed \'Rest Day Hero\' t-shirt 👕' },
+  { id: 'projects', label: 'Projects', x: 660, y: 400, title: 'Projects', html: '<a class="dialog-link" href="https://climbnora.com/" target="_blank" rel="noopener">Climb NORA</a> - concepting for bouldering gym in Federal Way, WA; designed rank system, pins, merch, etc.\n<span class="tshirt-link" data-img="assets/rest-day-hero.webp">Jesse Firestone Coaching</span> - PNW cornerstone, designed \'Rest Day Hero\' t-shirt 👕' },
   { id: 'quest', label: 'Quest Board', x: 680, y: 755, title: 'Quest Board', text: "Current quests:\n☐ Do an artist alley\n☐ Don't stop bouldering\n☐ Ship a tiny game this season\n☑ Adopt a black cat (complete!)" },
   { id: 'quotes', label: 'Quotes', x: 350, y: 1050, title: 'A Little Quote', quotes: [
     '"The octopus eats it own leg" — Takashi Murakami',
@@ -119,6 +119,10 @@ dialog.addEventListener('click', (event) => {
     const link = event.target.closest('.tshirt-link');
     imgPopup.querySelector('img').src = link.dataset.img;
     imgPopup.style.display = 'flex';
+    return;
+  }
+  if (event.target.closest('.dialog-link')) {
+    event.stopPropagation();
     return;
   }
   event.stopPropagation();
