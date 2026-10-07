@@ -10,7 +10,8 @@ const SECTIONS = [
     '"In another life, I would really have liked just doing laundry and taxes with you (如果有来生, 我还是会选择和你一起报税, 开洗衣店)" — Waymond, Everything Everywhere All at Once',
     '"But the truth I learned here is, you had to leave because you\'re you. And the reason I liked you is because you\'re you. And who you are is a person who leaves. But for him, you\'re the person who stays." — Haesung, Past Lives',
     '”There is a word in Korean. In-Yun. It means “providence” or “fate”. But it\'s specifically about relationships between people. I think it comes from Buddhism and reincarnation. It\'s an In-Yun if two strangers even walk by each other in the street and their clothes accidentally brush. Because it means there must have been something between them in their past lives. If two people get married, they say it\'s because there have been 8,000 layers of In-Yun over 8,000 lifetimes.” — Nora, Past Lives',
-    '”Sharing tea with a fascinating stranger is one of life\'s true delights.” — Uncle Iroh, Avatar the Last Airbender'
+    '”Sharing tea with a fascinating stranger is one of life\'s true delights.” — Uncle Iroh, Avatar the Last Airbender',
+    '”I am not looking for anyone\'s approval. I know who I am.” — Toph Beifong, Avatar the Last Airbender'
   ], lastQuoteIndex: -1 },
   { id: 'contact', label: 'Contact', x: 735, y: 1050, title: 'Contact', text: "Cast a line my way!\n✉ toriwhen@gmail.com\n☆ github.com/tophlinh\n✎ @tophlinh for my doodles" }
 ];
