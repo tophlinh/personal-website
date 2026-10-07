@@ -13,7 +13,8 @@ const SECTIONS = [
     '”Sharing tea with a fascinating stranger is one of life\'s true delights.” — Uncle Iroh, Avatar the Last Airbender',
     '”I am not looking for anyone\'s approval. I know who I am.” — Toph Beifong, Avatar the Last Airbender',
     '”I am the greatest Earthbender in the world. Don\'t you two dunderheads ever forget!” — Toph Beifong, Avatar the Last Airbender',
-    '”Sometimes, a person reaches a point in their life when it becomes absolutely essential to get the fuck out of the city.” — A Psalm for the Wild Built'
+    '”Sometimes, a person reaches a point in their life when it becomes absolutely essential to get the fuck out of the city.” — A Psalm for the Wild Built',
+    '”Friendship was witnessing another\'s slow drip of miseries, and long bouts of boredom, and occasional triumphs. It was feeling honored by the privilege of getting to be present for another person\'s most dismal moments, and knowing that you could be dismal around him in return.” — Hanya Yanagihara'
   ], lastQuoteIndex: -1 },
   { id: 'contact', label: 'Contact', x: 735, y: 1050, title: 'Contact', text: "Cast a line my way!\n✉ toriwhen@gmail.com\n☆ github.com/tophlinh\n✎ @tophlinh for my doodles" }
 ];
